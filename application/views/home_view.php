@@ -51,7 +51,7 @@
 										data-retina="<?php echo base_url();?>assets/images/<?php echo $gambar_headline;?>" />
 								</a>
 								<p class="sp-layer sp-black sp-padding" style="font-size:16px;font-weight:bolder;"
-									data-position="bottomLeft" data-vertical="65" data-horizontal="2%" data-width="96%"
+									data-position="bottomLeft" data-vertical="10" data-horizontal="2%" data-width="96%"
 									data-show-transition="up" data-show-delay="400" data-hide-transition="down">
 									<a href="<?php echo site_url('berita/'.$headline->post_slug);?>"
 										target="_blank"><?php echo $headline->post_title;?> </a>
@@ -59,13 +59,13 @@
 
 								</p>
 
-								<p class="sp-layer sp-white sp-padding hide-small-screen" data-position="bottomLeft"
+								<!-- <p class="sp-layer sp-white sp-padding hide-small-screen" data-position="bottomLeft"
 									data-horizontal="2%" data-vertical="10" data-show-transition="up"
 									data-show-delay="500" data-hide-transition="down">
 									<?php echo $isi;?> ... <a
 										href="<?php echo site_url('berita/'.$headline->post_slug);?>" style="color:#000;"
 										target="_blank"><strong> more </strong></a>
-								</p>
+								</p> -->
 							</div>
 
 							<?php endforeach;?>
@@ -144,8 +144,8 @@
 								<?php foreach($post_berita->result() as $berita):?>
 								<?php
 									// Tampilkan hanya sebagian isi berita
-									$isi_berita = htmlentities(strip_tags($berita->post_contents)); // membuat paragraf pada isi berita dan mengabaikan tag html
-									$isi = substr($isi_berita,0,130); // ambil sebanyak 220 karakter
+									$isi_berita = htmlentities(strip_tags($berita->post_title)); // membuat paragraf pada isi berita dan mengabaikan tag html
+									$isi = substr($isi_berita,0,100); // ambil sebanyak 220 karakter
 									$isi = substr($isi_berita,0,strrpos($isi," ")); // potong per spasi kalimat
 									$isi = str_replace("Jakarta, Kemendikbud&amp;nbsp;--- ", " ", $isi);
 									$gambar = $berita->post_image;
@@ -166,22 +166,23 @@
 												<img src="<?php echo base_url();?>assets/images/<?php echo $gambar;?>"
 													alt="" style="height:200px;" />
 											</a>
-											<header class="entry-header"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+											<!-- <header class="entry-header"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 												
 												<h3 class="entry-title">
 													<a
-														href="<?php echo site_url('berita/'.$berita->post_slug);?>"><?php echo $berita->post_title;?></a>
+														href="<?php echo site_url('berita/'.$berita->post_slug);?>"><?php echo $isi;?></a>
 												</h3>
-											</header>
+											</header> -->
 										</div>
 										<div class="entry-content">
-											<?php echo $isi; ?> <a
-												href="<?php echo site_url('berita/'.$berita->post_slug);?>"> <strong>
-													...more</strong> </a>
+											<!-- <?php echo $isi; ?>  -->
+											<a
+												href="<?php echo site_url('berita/'.$berita->post_slug);?>"><?php echo $isi; ?> <strong>
+												...more</strong> </a>
 										</div>
 										<footer class="entry-footer">
 											<div class="right">
-												<span class="posted-on"><a><?php echo $tanggalBerita;?></a></span>
+												<span class="posted-on" style="font-weight: bold; color:black;"><a><?php echo $tanggalBerita;?></a></span>
 											</div>
 										</footer>
 									</div>
