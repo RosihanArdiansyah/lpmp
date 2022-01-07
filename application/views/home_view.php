@@ -112,7 +112,7 @@
 			
 			<p></p>
 			<p></p>
-			<div class="small-8 medium-12 large-12 columns" style="padding-top : 64px;">
+			<div class="small-8 medium-12 large-12 columns" style="padding-top : 64px; width:100%;">
 				<ul class="block-with-icons">
 					<li>
 						<a href="<?=site_url('page/visi-dan-misi')?>">
