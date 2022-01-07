@@ -9,6 +9,7 @@ application/logs/*
 !application/*/.htaccess
 
 assets/document/
+assets/images/
 
 composer.lock
 
