@@ -14,7 +14,7 @@
         }(document, 'script', 'facebook-jssdk'));
     </script>
 
-    <div id="categories-2" class="widget widget_categories">
+    <!-- <div id="categories-2" class="widget widget_categories">
         <h2 class="section-title"><a href="https://lpmpsulsel.kemdikbud.go.id">Profil LPMP</a></h2>
         <ul>
             <?php
@@ -27,18 +27,18 @@
                 }
             ?>
         </ul>
-    </div>
+    </div> -->
 
-<hr />
-    <div class="widget arqam_counter-widget" id="arqam_counter-widget-2">
-        <h3 class="widget-title">Kepala LPMP SULSEL</h3>
+<!-- <hr /> -->
+    <div class="widget arqam_counter-widget" id="arqam_counter-widget-2" >
+        <h3 class="widget-title" style="border-radius: 8px;">Kepala LPMP SULSEL</h3>
         <img src="<?=base_url()?>assets/images/profile.jpg" width="100%"
-							style="max-height:250px;" class="ls-bg" alt="Dr. H. Abdul Halim Muharram" />
+							style="max-height:250px; border-radius: 8px;" class="ls-bg" alt="Dr. H. Abdul Halim Muharram" />
 						<center><strong>Dr. H. Abdul Halim Muharram</strong></center>
     </div>
 
 
-    <div class="widget arqam_counter-widget" id="arqam_counter-widget-2">
+    <!-- <div class="widget arqam_counter-widget" id="arqam_counter-widget-2">
         <h3 class="widget-title">Link Eksternal</h3>
 
         <a href="http://kemdikbud.go.id/main/?lang=id" target="_blank"
@@ -75,7 +75,7 @@
                 style="margin-left: auto;margin-right:auto; display:block;" /></a>
         <hr />
 
-    </div>
+    </div> -->
 
 
 
