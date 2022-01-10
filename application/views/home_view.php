@@ -86,7 +86,7 @@
 
 
 			<section id="categories-4 sidebar" class="widget widget_categories medium-4 large-4 columns"
-				style="padding-top:32px; padding-bottom:72px;">
+				style="padding-bottom:72px;">
 				<div class="tmm_row">
 					<div class="relative">
 						<!-- LayerSlider -->

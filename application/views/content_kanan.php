@@ -81,9 +81,9 @@
 
 
     <div class="widget arqam_counter-widget" id="arqam_counter-widget-2">
-        <h3 class="widget-title">Media Publikasi</h3>
+        <h3 class="widget-title" style="border-radius: 8px;">Media Publikasi</h3>
         
-        <a href="<?=site_url('buletin')?>">
+        <a href="<?=site_url('buletin')?>" >
         
         <?php
         $query_buletin_akhir = $this->db->query("SELECT *FROM tbl_posts WHERE post_category_id = '3' AND post_image != '' ORDER BY post_id DESC LIMIT 0,1");
@@ -91,18 +91,18 @@
         $image_buletin = $row_buletin->post_image;
         ?>
         <img
-                src="<?=base_url()?>assets/images/<?=$image_buletin?>" width="80%" height="50px" style="margin-left: auto;margin-right:auto; display:block;" /></a>
+                src="<?=base_url()?>assets/images/<?=$image_buletin?>" width="80%" height="50px" style="margin-left: auto;margin-right:auto; display:block;border-radius: 8px;" /></a>
     </div>
 
 
     <div class="widget arqam_counter-widget" id="arqam_counter-widget-2">
-        <h3 class="widget-title">Halaman Facebook</h3>
+        <h3 class="widget-title" style="border-radius: 8px;">Halaman Facebook</h3>
 
         <div class="fb-page" data-href="https://www.facebook.com/medialpmpsulsel/" data-tabs="timeline"
             data-small-header="false" data-adapt-container-width="true" data-hide-cover="false"
             data-show-facepile="true">
             <blockquote cite="https://www.facebook.com/lpmp.prov.sulsel/" class="fb-xfbml-parse-ignore"><a
-                    href="https://www.facebook.com/lpmp.prov.sulsel/">Lembaga Penjaminan Mutu Pendidikan - LPMP
+                    href="https://www.facebook.com/lpmp.prov.sulsel/" >Lembaga Penjaminan Mutu Pendidikan - LPMP
                     Sulsel</a></blockquote>
         </div>
     </div>

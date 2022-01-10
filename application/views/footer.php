@@ -3,7 +3,7 @@
 				<div class="row">
 					<div class="large-6 columns">
 						<div class="copyright">
-							Copyright &copy 2016. LPMP SULSEL All rights reserved
+							Copyright &copy 2021. LPMP SULSEL All rights reserved
 						</div>
 					</div>
 					<div class="large-3 large-offset-3 columns">
