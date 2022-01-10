@@ -20,7 +20,7 @@
 
                     <div class="menu-primary-menu-container">
 
-                        <ul id="menu-primary-menu" class="menu" style="background-color: #DCDCDC;">
+                        <ul id="menu-primary-menu" class="menu" style="border-radius: 8px; border: double;">
                         <?php
 
                             $query_menu_navbar = $this->db->query("SELECT *FROM tbl_navbar WHERE navbar_parent_id = '0' ORDER BY urutan ASC")->result();
@@ -33,7 +33,7 @@
                                 } else {
                                     if ($row_parent->navbar_direct == 'Y') {
                                         ?>
-                                            <li><a href="<?=$row_parent->navbar_slug?>" target="_blank"><?=$row_parent->navbar_name?></a>
+                                            <li ><a href="<?=$row_parent->navbar_slug?>" target="_blank"><?=$row_parent->navbar_name?> </a>
                                         <?php 
                                     } else {
                                         ?>
