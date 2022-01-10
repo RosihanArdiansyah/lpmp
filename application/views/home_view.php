@@ -24,10 +24,10 @@
 		<!-- - - - - - - - MAIN  - - - - - - - -->
 		
 			<div class="medium-8 large-8 columns">
-				<div class="item col-xs-12 col-sm-12" style="">
+				<div class="item col-xs-12 col-sm-12">
 
-					<div id="example1" class="slider-pro">
-						<div class="sp-slides">
+					<div id="example1" class="slider-pro" >
+						<div class="sp-slides" >
 
 							<?php foreach($post_headline_slider->result() as $headline):?>
 							<?php 
@@ -44,8 +44,8 @@
 										$gambar_headline = $headline->post_image;
 									}
 								?>
-							<div class="sp-slide">
-								<a href="#" target="_blank"><img class="sp-image"
+							<div class="sp-slide"> 
+								<a href="#" target="_blank"><img class="sp-image" 
 										src="<?php echo base_url();?>assets/images/blank.gif"
 										data-src="<?php echo base_url();?>assets/images/<?php echo $gambar_headline;?>"
 										data-retina="<?php echo base_url();?>assets/images/<?php echo $gambar_headline;?>" />
@@ -92,7 +92,7 @@
 						<!-- LayerSlider -->
 						<div style="width:100%;max-height:200px;margin:0 auto;margin-bottom: 0px;">
 							<h4
-								style="font-size:13px;background-color: #11547b;color: #fff;padding: 0.9375rem 1.00rem;">
+								style="font-size:13px;background-color: #11547b;color: #fff;padding: 0.9375rem 1.00rem; border-radius: 8px;">
 								Kegiatan</h4>
 							<ul style="padding-left:10px;">
 
@@ -113,7 +113,7 @@
 			<p></p>
 			<p></p>
 			<div class="small-8 medium-12 large-12 columns" style="padding-top : 64px; width:100%;">
-				<ul class="block-with-icons">
+				<ul class="block-with-icons" >
 					<li>
 						<a href="<?=site_url('page/visi-dan-misi')?>">
 							<i class="icon-calendar-inv"></i>
@@ -137,10 +137,10 @@
 			<!-- content left -->
 			<section id="main" class="medium-9 large-9 columns">
 				<div class="section margin-bottom-10 columns medium-12 large-12 background-color-off">
-					<div class="tmm_row row" style="max-height:600px;">
+					<div class="tmm_row row" style="max-height:600px; border-radius: 8px;">
 						<div class="relative">
 							<h2 class="section-title"><a href="semua-berita.html">Daftar Berita</a></h2>
-							<div class="row post-list two-cols">
+							<div class="row post-list two-cols" style="border-radius: 8px;">
 								<?php foreach($post_berita->result() as $berita):?>
 								<?php
 									// Tampilkan hanya sebagian isi berita
@@ -162,9 +162,9 @@
 										<div class="entry-media">
 											<a href="<?php echo site_url('berita/'.$berita->post_slug);?>"
 												title="<?php echo $berita->post_title;?>"
-												class="image-post item-overlay ">
+												class="image-post item-overlay " style="border-radius: 8px;">
 												<img src="<?php echo base_url();?>assets/images/<?php echo $gambar;?>"
-													alt="" style="height:200px;" />
+													alt="" style="height:200px; border-radius: 8px;" />
 											</a>
 											<!-- <header class="entry-header"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 												
