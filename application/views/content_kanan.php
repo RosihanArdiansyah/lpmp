@@ -96,10 +96,10 @@
 
 
     <div class="widget arqam_counter-widget" id="arqam_counter-widget-3">
-        <h3 class="widget-title" style="border-radius: 8px;">Lokasi</h3>
+        <h3 class="widget-title" style="border-radius: 8px;">Lokasi LPMP</h3>
 
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.6080342338028!2d119.43092431520675!3d-5.16658479625081!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbee2917212fc07%3A0x9f4c7626bc35b0bd!2sLPMP%20Sulawesi%20Selatan!5e0!3m2!1sid!2sid!4v1641794354850!5m2!1sid!2sid" 
-            width="device-width" height="450" style="border:0;border-radius: 8px;" allowfullscreen="" loading="lazy"></iframe>
+            width="260" height="450" style="border:0;border-radius: 8px;" allowfullscreen="" loading="lazy"></iframe>
     </div>
 
     <div class="widget arqam_counter-widget" id="arqam_counter-widget-2">

@@ -2,13 +2,14 @@
 		<script type="text/javascript">
 			$(document).ready(function ($) {
 				$('#example1').sliderPro({
-					width: 960,
+					width: '100%',
+					forceSize: 'fullWidth',
 					height: 500,
 					arrows: true,
-					buttons: false,
+					buttons: true,
 					waitForLayers: true,
-					thumbnailWidth: 200,
-					thumbnailHeight: 100,
+					// thumbnailWidth: 360,
+					// thumbnailHeight: 200,
 					thumbnailPointer: true,
 					autoplay: true,
 					autoScaleLayers: false,
@@ -16,17 +17,18 @@
 						500: {
 							thumbnailWidth: 120,
 							thumbnailHeight: 50
-						}
-					}
+						},
+					},
+					
 				});
 			});
 		</script>
 		<!-- - - - - - - - MAIN  - - - - - - - -->
 		
-			<div class="medium-8 large-8 columns">
-				<div class="item col-xs-12 col-sm-12">
+			<div class="medium-8 large-8 ">
+				<div class="item">
 
-					<div id="example1" class="slider-pro" >
+					<div id="example1" class="slider-pro" style="display: block;">
 						<div class="sp-slides" >
 
 							<?php foreach($post_headline_slider->result() as $headline):?>
@@ -81,37 +83,8 @@
 
 				</div>
 			</div>
-
-
-
-
-			<section id="categories-4 sidebar" class="widget widget_categories medium-4 large-4 columns"
-				style="padding-bottom:72px;">
-				<div class="tmm_row">
-					<div class="relative">
-						<!-- LayerSlider -->
-						<div style="width:100%;max-height:200px;margin:0 auto;margin-bottom: 0px;">
-							<h4
-								style="font-size:13px;background-color: #11547b;color: #fff;padding: 0.9375rem 1.00rem; border-radius: 8px;">
-								Kegiatan</h4>
-							<ul style="padding-left:10px;">
-
-								<?php foreach($post_kegiatan->result() as $kegiatan):?>
-								<?php $tanggalKegiatan = date('d M Y',strtotime($kegiatan->kegiatan_mulai_tanggal)); ?>
-								<li style="list-style:circle;"><a style="color: #11547B"
-										href="<?php echo site_url('agenda/'.$kegiatan->kegiatan_slug);?>"><?php echo $kegiatan->kegiatan_title;?><br /><span style="color: #333;">(<?=$tanggalKegiatan?>)</span></a>
-								</li>
-								<?php endforeach;?>
-
-							</ul>
-						</div>
-						<!-- End LayerSlider -->
-					</div>
-				</div>
-			</section>
 			
-			<p></p>
-			<p></p>
+		
 			<div class="small-8 medium-12 large-12 columns" style="padding-top : 64px; width:100%;">
 				<ul class="block-with-icons" >
 					<li>
@@ -136,6 +109,32 @@
 			</div>
 			<!-- content left -->
 			<section id="main" class="medium-9 large-9 columns">
+				<div class="section margin-bottom-10 columns medium-12 large-12 background-color-off">
+					<div class="tmm_row row" style="max-height:600px; border-radius: 8px;">
+						<div class="relative">
+							<h2 class="section-title"><a href="semua-berita.html">Kegiatan</a></h2>
+							<div class="row post-list two-cols" style="border-radius: 8px;">
+							<ul style="padding-left:10px; ">
+
+							<?php foreach($post_kegiatan->result() as $kegiatan):?>
+								<?php $tanggalKegiatan = date('d M Y',strtotime($kegiatan->kegiatan_mulai_tanggal)); ?>
+									<li style="list-style:circle;padding-top:16px;"><a style="color: #11547B"
+											href="<?php echo site_url('agenda/'.$kegiatan->kegiatan_slug);?>"><?php echo $kegiatan->kegiatan_title;?><br /><span style="color: #333;">(<?=$tanggalKegiatan?>)</span></a>
+									</li>
+							<?php endforeach;?>
+
+							</ul>
+
+
+
+							</div>
+							<!--/ .post-area-->
+						</div>
+					</div>
+				</div>
+
+				<!-- Daftar Berita -->
+
 				<div class="section margin-bottom-10 columns medium-12 large-12 background-color-off">
 					<div class="tmm_row row" style="max-height:600px; border-radius: 8px;">
 						<div class="relative">
@@ -198,6 +197,7 @@
 						</div>
 					</div>
 				</div>
+
 				<!--/ .section -->
 				<div class="section padding-off columns medium-12 large-12 background-color-off">
 					<div class="row">
