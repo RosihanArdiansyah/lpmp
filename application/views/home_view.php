@@ -2,14 +2,14 @@
 		<script type="text/javascript">
 			$(document).ready(function ($) {
 				$('#example1').sliderPro({
-					width: '100%',
+					width: 960,
 					forceSize: 'fullWidth',
 					height: 500,
 					arrows: true,
 					buttons: true,
 					waitForLayers: true,
-					// thumbnailWidth: 360,
-					// thumbnailHeight: 200,
+					thumbnailWidth: 200,
+					thumbnailHeight: 100,
 					thumbnailPointer: true,
 					autoplay: true,
 					autoScaleLayers: false,
