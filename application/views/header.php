@@ -1,8 +1,8 @@
 <header id="header" class="header" style="width: auto;">
     
-        <div class="row">
+        <!-- <div class="row">
 			<img src="https://lpmpsulsel.kemdikbud.go.id/assets/images/cover.jpg" width="100%">
-		</div>
+		</div> -->
         <!--/ .row-->
     <!--/ .header-top-->
     
@@ -15,12 +15,21 @@
         <div class="row">
 
             <div class="large-12 columns">
+                
 
                 <nav id="navigation" class="navigation top-bar" data-topbar>
 
                     <div class="menu-primary-menu-container">
+                     
 
-                        <ul id="menu-primary-menu" class="menu" style="border-radius: 8px; border: double;">
+                    <ul id="icon-menu">
+                        <img src="lpmp.png" width="48px">
+                    </ul>
+                    <ul id="icon-name">
+                        <H5 style="padding-top: 8px ; color:#14b3e4;">LPMP Sul-Sel</H5>
+                    </ul>
+                        <ul id="menu-primary-menu" class="menu">
+                        
                         <?php
 
                             $query_menu_navbar = $this->db->query("SELECT *FROM tbl_navbar WHERE navbar_parent_id = '0' ORDER BY urutan ASC")->result();

@@ -436,7 +436,16 @@ hr.light {background:rgba(255, 255, 255, 0.03);border-color: rgba(255, 255, 255,
   animation: spinner 1.0s infinite ease-in-out;  
 }*/
 .loader {
-    width: 100px;
+	position:absolute;
+	top:55%;
+	left:50%;
+	-webkit-transform:translateX(-50%);
+	-moz-transform:translateX(-50%);
+	-o-transform:translateX(-50%);
+	-ms-transform:translateX(-50%);
+	transform:translateX(-50%)
+	;margin:-90px 0 0 0
+    /* width: 100px;
     height: 100px;
     position: absolute;
     top: 50%;
@@ -447,11 +456,11 @@ hr.light {background:rgba(255, 255, 255, 0.03);border-color: rgba(255, 255, 255,
 	text-transform:uppercase;
     text-align: center;
     border-radius: 50%;
-    box-shadow: 0 2px 9px 0 rgba(21, 21, 21, 0.69);
-	-webkit-box-shadow: 0 2px 9px 0 rgba(21, 21, 21, 0.69);
-    margin: -50px 0 0 -50px;
-    z-index: 100001;
-    background-color: #212121;
+    /* box-shadow: 0 2px 9px 0 rgba(21, 21, 21, 0.69);
+	-webkit-box-shadow: 0 2px 9px 0 rgba(21, 21, 21, 0.69); */
+    /* margin: -50px 0 0 -50px;
+    z-index: 100001; */ 
+    /* background-color: #212121; */
 }
 .loader-area{
 	position: absolute;
