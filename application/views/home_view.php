@@ -52,7 +52,7 @@
 										data-src="<?php echo base_url();?>assets/images/<?php echo $gambar_headline;?>"
 										data-retina="<?php echo base_url();?>assets/images/<?php echo $gambar_headline;?>" />
 								</a>
-								<p class="sp-layer sp-black sp-padding" style="font-size:16px;font-weight:bolder;"
+								<p class="sp-layer sp-black sp-padding" style="font-size:16px;font-weight:bolder;text-align: center;"
 									data-position="bottomLeft" data-vertical="10" data-horizontal="2%" data-width="96%"
 									data-show-transition="up" data-show-delay="400" data-hide-transition="down">
 									<a href="<?php echo site_url('berita/'.$headline->post_slug);?>"
