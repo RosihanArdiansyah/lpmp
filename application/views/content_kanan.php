@@ -31,10 +31,32 @@
 
 <!-- <hr /> -->
     <div class="widget arqam_counter-widget" id="arqam_counter-widget-2" >
-        <h3 class="widget-title" style="border-radius: 8px;">Kepala LPMP SULSEL</h3>
+        <!-- <h3 class="widget-title" style="border-radius: 8px;">Kepala LPMP SULSEL</h3>
         <img src="<?=base_url()?>assets/images/profile.jpg" width="100%"
 							style="max-height:250px; border-radius: 8px;" class="ls-bg" alt="Dr. H. Abdul Halim Muharram" />
-						<center><strong>Dr. H. Abdul Halim Muharram</strong></center>
+						<center><strong>Dr. H. Abdul Halim Muharram</strong></center> -->
+        
+            <div class="tmm_row">
+					<div class="relative">
+						<!-- LayerSlider -->
+						<div style="width:100%;height:auto;margin:0 auto;margin-bottom: 0px;">
+							<h4
+								style="background-color: #11547b;color: #fff;padding: 0.9375rem 1.00rem;border-radius: 8px;">
+								Kegiatan</h4>
+							<ul style="padding-left:8px; padding-top:8px;">
+
+								<?php foreach($post_kegiatan->result() as $kegiatan):?>
+								<?php $tanggalKegiatan = date('d M Y',strtotime($kegiatan->kegiatan_mulai_tanggal)); ?>
+								<li style="list-style:circle; padding-top:8px"><a style="color: #11547B"
+										href="<?php echo site_url('agenda/'.$kegiatan->kegiatan_slug);?>"><?php echo $kegiatan->kegiatan_title;?><br /><span style="color: #333;">(<?=$tanggalKegiatan?>)</span></a>
+								</li>
+								<?php endforeach;?>
+
+							</ul>
+						</div>
+						<!-- End LayerSlider -->
+					</div>
+			</div>
     </div>
 
 

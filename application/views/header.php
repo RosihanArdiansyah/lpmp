@@ -23,10 +23,7 @@
                      
 
                     <ul id="icon-menu">
-                        <img src="lpmp.png" width="48px">
-                    </ul>
-                    <ul id="icon-name">
-                        <H5 style="padding-top: 8px ; color:#14b3e4;">LPMP Sul-Sel</H5>
+                        <img src="logho.png" width="256px">
                     </ul>
                         <ul id="menu-primary-menu" class="menu">
                         

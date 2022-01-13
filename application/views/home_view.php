@@ -85,7 +85,7 @@
 			</div>
 			
 		
-			<div class="small-8 medium-12 large-12 columns" style="padding-top : 64px; width:100%;">
+			<!-- <div class="small-8 medium-12 large-12 columns" style="padding-top : 64px; width:100%;">
 				<ul class="block-with-icons" >
 					<li>
 						<a href="<?=site_url('page/visi-dan-misi')?>">
@@ -106,13 +106,13 @@
 						</a>
 					</li>
 				</ul>
-			</div>
+			</div> -->
 			<!-- content left -->
 			<section id="main" class="medium-9 large-9 columns">
 				<div class="section margin-bottom-10 columns medium-12 large-12 background-color-off">
 					<div class="tmm_row row" style="max-height:600px; border-radius: 8px;">
 						<div class="relative">
-							<h2 class="section-title"><a href="semua-berita.html">Kegiatan</a></h2>
+							<!-- <h2 class="section-title"><a href="semua-berita.html">Kegiatan</a></h2>
 							<div class="row post-list two-cols" style="border-radius: 8px;">
 							<ul style="padding-left:10px; ">
 
@@ -127,7 +127,7 @@
 
 
 
-							</div>
+							</div> -->
 							<!--/ .post-area-->
 						</div>
 					</div>
@@ -144,7 +144,7 @@
 								<?php
 									// Tampilkan hanya sebagian isi berita
 									$isi_berita = htmlentities(strip_tags($berita->post_title)); // membuat paragraf pada isi berita dan mengabaikan tag html
-									$isi = substr($isi_berita,0,100); // ambil sebanyak 220 karakter
+									$isi = substr($isi_berita,0,90); // ambil sebanyak 220 karakter
 									$isi = substr($isi_berita,0,strrpos($isi," ")); // potong per spasi kalimat
 									$isi = str_replace("Jakarta, Kemendikbud&amp;nbsp;--- ", " ", $isi);
 									$gambar = $berita->post_image;
