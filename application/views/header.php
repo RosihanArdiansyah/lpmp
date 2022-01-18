@@ -14,7 +14,7 @@
 
         <div class="row">
 
-            <div class="large-12 columns">
+            <div class="large-16 columns">
                 
 
                 <nav id="navigation" class="navigation top-bar" data-topbar>
@@ -23,7 +23,7 @@
                      
 
                     <ul id="icon-menu">
-                        <img src="logho.png" width="256px">
+                        <img src="logho.png" width="200px">
                     </ul>
                         <ul id="menu-primary-menu" class="menu">
                         

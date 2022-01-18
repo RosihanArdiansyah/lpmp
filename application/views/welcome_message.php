@@ -120,14 +120,21 @@
 				<video autoplay muted loop id="myVideo" style="position:fixed;right:0;bottom:0;min-width:100%;min-height:100%;">
   							<source src="rickroll.mp4" type="video/mp4">
 					</video>		
-					<div class="table-content">	
+					<div class="table-content columns">	
 						<div class="table-center-text">
 							<div class="container">		
 
-								<div class="local-scroll">
+								<div class="local-scroll" style="padding-top: 8px;">
+									<a href="<?php echo site_url('home');?>" class="btn bg-black white-color" style="margin-bottom: 16px;">Halaman Depan</a>
+									<span class="btn_seperator"></span>
+									<a href="<?php echo site_url('home');?>" class="btn bg-black white-color" style="margin-bottom: 16px;">Halaman Depan</a>
+									<span class="btn_seperator"></span>
+									<a href="<?php echo site_url('home');?>" class="btn bg-black white-color" style="margin-bottom: 16px;">Halaman Depan</a>
+									<span class="btn_seperator"></span>
+									<br>
 									<a href="<?php echo site_url('home');?>" class="btn bg-black white-color">Halaman Depan</a>
 									<span class="btn_seperator"></span>
-									<a href="<?php echo site_url('halamaninputnya');?>" class="btn bg-black whitre-color hidden-xs">Admin</a>
+									<a href="<?php echo site_url('halamaninputnya');?>" class="btn bg-black white-color hidden-xs">Admin</a>
 								</div>
 							</div>	
 						</div>
@@ -136,10 +143,7 @@
 				
 				
 								
-				
-				<!-- FOOTER
-				================================================== -->	
-				<?php $this->load->view('footer')?>
+					
 				
 	</main>
 	<!--/ #wrapper-->
