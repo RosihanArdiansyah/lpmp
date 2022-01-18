@@ -59,6 +59,7 @@ class Home extends CI_Controller {
 
 
 		$data['main_view'] = 'home_view';
+		$data['kanan'] = $this->load->view('content_kanan',$data,TRUE);
 		$v['logo'] =  $site_info->site_logo_header;
 		$data['header'] = $this->load->view('header',$v,TRUE);
 		// $data['footer'] = $this->load->view('footer','',TRUE);

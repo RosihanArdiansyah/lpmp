@@ -133,7 +133,7 @@
 		
 
         <!-- sidebar -->
-        <?php $this->load->view('content_kanan') ?>
+        <?php echo $kanan; ?>
         <!-- /.sidebar -->
 		</main>
 		<!-- - - - - - - - FOOTER - - - - - - - -->

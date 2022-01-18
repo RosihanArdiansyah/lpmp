@@ -125,11 +125,23 @@
 							<div class="container">		
 
 								<div class="local-scroll" style="padding-top: 8px;">
-									<a href="<?php echo site_url('home');?>" class="btn bg-black white-color" style="margin-bottom: 16px;">Halaman Depan</a>
+										<a href="http://kemdikbud.go.id/main/?lang=id" target="_blank"
+											title="Kementerian Pendidikan dan Kebudayaan"><img
+											src="<?=base_url()?>assets/images/kemendikbud.jpg" width="200px"
+											style="margin-left: auto;margin-right:auto;margin-bottom: 16px;border-radius:8px;" />
+										</a>
 									<span class="btn_seperator"></span>
-									<a href="<?php echo site_url('home');?>" class="btn bg-black white-color" style="margin-bottom: 16px;">Halaman Depan</a>
+										<a href="http://dikdasmen.kemdikbud.go.id/" target="_blank"
+											title=Direktorat Jenderal Pendidikan Dasar dan Menengah"><img
+											src="<?=base_url()?>assets/images/dirjen.jpg" width="256px" 
+											style="margin-left: auto;margin-right:auto;margin-bottom: 16px;border-radius:8px;" />
+										</a>
 									<span class="btn_seperator"></span>
-									<a href="<?php echo site_url('home');?>" class="btn bg-black white-color" style="margin-bottom: 16px;">Halaman Depan</a>
+										<a href="http://dapo.kemdikbud.go.id/" target="_blank"
+											title="Kementerian Pendidikan dan Kebudayaan"><img
+											src="<?=base_url()?>assets/images/dapodik.jpg" width="80px"  
+											style="margin-left: auto;margin-right:auto;margin-bottom: 16px;border-radius:8px;" />
+										</a>
 									<span class="btn_seperator"></span>
 									<br>
 									<a href="<?php echo site_url('home');?>" class="btn bg-black white-color">Halaman Depan</a>
