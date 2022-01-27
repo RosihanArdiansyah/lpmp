@@ -54,7 +54,7 @@
 				<hr />
 				<a href="https://lpse.kemdikbud.go.id/" target="_blank" title="LPSE Kemdikbud"><img src="<?php echo $alamat_website;?>images/stories/lpse-kemdikbud.png" width="90%" style="margin-left: auto;margin-right:auto; display:block;" /></a>
 				<hr />
-				<a href="http://114.7.201.110/" target="_blank" title="Data Pokok Pendidikan Sulsel"><img src="<?php echo $alamat_website;?>images/stories/dapodik_sulsel.png" width="90%" style="margin-left: auto;margin-right:auto; display:block;" /></a>
+				<a href="http://103.153.186.182/" target="_blank" title="Data Pokok Pendidikan Sulsel"><img src="<?php echo $alamat_website;?>images/stories/dapodik_sulsel.png" width="90%" style="margin-left: auto;margin-right:auto; display:block;" /></a>
 				<hr />
 				  <?php
 				}
