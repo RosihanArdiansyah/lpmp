@@ -118,44 +118,60 @@
 				================================================== -->
 				<section id="homepage" class="home page-section parallax-2 overlay-light-alpha-10" style="padding-top: 32px ;">
 				
-				<video autoplay muted loop id="myVideo" style="position:fixed;right:0;bottom:0;min-width:100%;min-height:100%;opacity:70%;">
-  							<source src="LPMP_vids_revisi.mp4" type="video/mp4">
+				<video autoplay muted loop id="myVideo" style="position:fixed;right:0;bottom:0;min-width:100%;min-height:100%;opacity:100%;">
+  							<source src="540.mp4" type="video/mp4">
 					</video>		
 					<div class="table-content columns">	
 						<div class="table-center-text">
 							<div class="row">
-								<img src="lpmp.png" width="40%" style="background-color:transparent;">
+								<img src="tut.png" width="60%" style="background-color:transparent;">
 							</div>
 								<div class="container">		
-
-									<div class="local-scroll" style="padding-top: 300px;">
-										<a href="http://kemdikbud.go.id/main/?lang=id" target="_blank"
-											title="Kementerian Pendidikan dan Kebudayaan"><img
-											src="kemdikbud.jpg" width="100px"
-											style="margin-left: auto;margin-right:auto;margin-bottom: 16px;border-radius:8px;" />
+									<div class="local-scroll" style="padding-top: 100px; padding-left:20px; height: 1200px;">
+										<a href="https://http://e-spmisulsel.info/supervisi/" target="_blank"
+											title="rapor mutu">
+											<img src="<?=base_url()?>assets/logho/1R.png" width="100%" 
+											style="border-radius:8px;max-width:130px;margin-right: 30px;"/> 
 										</a>
-									<span class="btn_seperator"></span>
-										<a href="http://dikdasmen.kemdikbud.go.id/" target="_blank"
-											title="Direktorat Jenderal Pendidikan Dasar dan Menengah"><img
-											src="<?=base_url()?>assets/images/dirjen.jpg" width="256px" 
-											style="margin-left: auto;margin-right:auto;margin-bottom: 16px;border-radius:8px;" />
+										<a href="https://lpmpsulsel.kemdikbud.go.id/ewisma/public/" target="_blank"
+											title="e-wisma">
+											<img src="<?=base_url()?>assets/logho/2K.png" width="100%" 
+											style="border-radius:8px;max-width:130px;margin-right: 30px;"/> 
 										</a>
-									<span class="btn_seperator"></span>
-										<a href="http://dapo.kemdikbud.go.id/" target="_blank"
-											title="Kementerian Pendidikan dan Kebudayaan"><img
-											src="<?=base_url()?>assets/images/dapodik.jpg" width="80px"  
-											style="margin-left: auto;margin-right:auto;margin-bottom: 16px;border-radius:8px;" />
+										<a href="http://bmn.appakabaji.org/" target="_blank"
+											title="appakabaji">
+											<img src="<?=base_url()?>assets/logho/3D.png" width="100%" 
+											style="border-radius:8px;max-width:130px;margin-right: 30px;"/> 
 										</a>
-									<span class="btn_seperator"></span>
-									<br>
-									<span class="btn_seperator"></span>
-										<a href="<?php echo site_url('home');?>" target="_blank"
-											title="Kementerian Pendidikan dan Kebudayaan"><img
-											src="logho.png" width="200px"  
-											style="margin-left: auto;margin-right:auto;margin-bottom: 16px;border-radius:8px;" />
+										<a href="http://pinisi.lpmpsulsel.net" target="_blank"
+											title="pinisi">
+											<img src="<?=base_url()?>assets/logho/4P.png" width="100%" 
+											style="border-radius:8px;max-width:130px;margin-right: 30px;"/> 
 										</a>
-									<span class="btn_seperator"></span>
-									<a href="<?php echo site_url('halamaninputnya');?>" class="btn bg-black white-color hidden-xs">Admin</a>
+					
+										<br>
+										<a href="http://e-spmisulsel.info/kinerja" target="_blank"
+											title="kinerja">
+											<img src="<?=base_url()?>assets/logho/5W.png" width="100%" 
+											style="border-radius:8px;max-width:130px;margin-right: 30px;"/> 
+										</a>
+										<a href="http://skp.sdm.kemdikbud.go.id/skp/site/login.jsp" target="_blank"
+											title="sadia">
+											<img src="<?=base_url()?>assets/logho/6A.png" width="100%" 
+											style="border-radius:8px;max-width:130px;margin-right: 30px;"/> 
+										</a>
+										<a href="http://e-spmisulsel.info/kinerja" target="_blank"
+											title="dupak">
+											<img src="<?=base_url()?>assets/logho/7S.png" width="100%" 
+											style="border-radius:8px;max-width:130px;margin-right: 30px;"/> 
+										</a>
+															
+										<br>
+										
+										
+										
+										
+										
 								</div>
 							</div>	
 						</div>

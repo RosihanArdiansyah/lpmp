@@ -60,7 +60,6 @@ $route['tag/(:any)']='tag/detail/$1';
 $route['tag/(:any)/(:num)']='tag/detail/$1/$2';
 $route['search']='result/search/';
 $route['halamaninputnya']='halamanbelakang/login';
-$route['welcome']='Welcome';
 $route['logout']='halamanbelakang/login/logout';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
