@@ -60,7 +60,7 @@ class Post extends CI_Controller{
 	            $config['source_image']='./assets/images/'.$img['file_name'];
 	            $config['create_thumb']= FALSE;
 	            $config['maintain_ratio']= FALSE;
-	            $config['quality']= '60%';
+	            $config['quality']= '100%';
 	            $config['width']= 500;
 	            $config['height']= 320;
 	            $config['new_image']= './assets/images/'.$img['file_name'];
