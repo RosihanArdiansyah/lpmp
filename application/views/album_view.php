@@ -7,10 +7,10 @@
         </div>
     </div>
    
-    <section id="portfolio_items_5e436ae780eff" class="portfolio-items popup-gallery col-2" data-display="cover">
+    <section id="portfolio_items_5e436ae780eff" class="portfolio-items popup-gallery col-2" data-display="cover" style="width: 500%;">
 
     <?php foreach ($data->result() as $row):?>
-        <article id="post-0" class="mix 2012" style="display: inline-block;">
+        <article id="post-0" class="mix 2012" style="display: inline-block; width:100%;">
 
         <div class="work-item">
 
